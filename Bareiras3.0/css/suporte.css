@@ -1,0 +1,92 @@
+.formulario{
+    width: 400px;
+    padding: 30px;
+    border:1px solid #013069;
+}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #0073ff;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #0071fc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+body{
+    animation: Gradient 10s ease infinite ;
+   background: linear-gradient(-45deg, #0113FA, #4b57fd, #8089fd, #acacfd, #ceceff)no-repeat;
+   background-size: 300% 300%;
+   font-family:sans-serif ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: rgb(0, 29, 109);
+   height: 100vh;
+}
+@keyframes Gradient {
+  0%{background-position: 0 50%;
+
+}
+
+ 50%{background-position:100% 50% ;
+
+}
+
+100%{background-position: 0 50%;
+
+}
+  
+
+
+}
+.container{
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .container{width: min(100% - 15,840px);
+    margin-inline: auto
+    ;
+  }

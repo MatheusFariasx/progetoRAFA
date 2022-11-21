@@ -1,0 +1,127 @@
+html body{
+    animation: Gradient 10s ease infinite ;
+   background: linear-gradient(-45deg, #0113FA,#3845FA,#969df8,#f1f1f3,#FFFFFF)no-repeat;
+   background-size: 300% 300%;
+   font-family:sans-serif ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   height: 100vh;
+}
+@keyframes Gradient {
+  0%{background-position: 0 50%;
+
+}
+
+ 50%{background-position:100% 50% ;
+
+}
+
+100%{background-position: 0 50%;
+
+}
+  
+
+
+}
+  a {
+    text-decoration: none;
+  }
+  
+  div, h2, p, figure {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main {
+    margin: 0 auto;
+    max-width: 1040px;
+    padding: 20px;
+  }
+  
+  .columns {
+    display: flex;
+  }
+  
+  .column {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  
+  .main-column {
+    flex: 2;
+  }
+  
+  .article {
+    background: white;
+    color: #666;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-basis: auto;
+    margin: 10px;
+  }
+  
+  .article-image {
+    background: #eee;
+    display: block;
+    padding-top: 75%;
+    position: relative;
+    width: 100%;
+  }
+  
+  .article-image img {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .article-image.is-3by2 {
+    padding-top: 66.6666%;
+  }
+  
+  .article-image.is-16by9 {
+    padding-top: 56.25%;
+  }
+  
+  .article-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .article-title {
+    color: #333;
+    flex-shrink: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  .article-content {
+    flex: 1;
+    margin-top: 5px;
+  }
+  
+  .article-info {
+    display: flex;
+    font-size: 0.85em;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .container{
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .container{width: min(100% - 15,840px);
+    margin-inline: auto
+    ;
+  }

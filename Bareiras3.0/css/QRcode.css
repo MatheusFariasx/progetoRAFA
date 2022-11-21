@@ -1,0 +1,36 @@
+body{
+    animation: Gradient 10s ease infinite ;
+   background: linear-gradient(-45deg, #0113FA,#3845FA,#969df8,#f1f1f3,#FFFFFF)no-repeat;
+   background-size: 300% 300%;
+   font-family:sans-serif ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   height: 100vh;
+}
+@keyframes Gradient {
+  0%{background-position: 0 50%;
+
+}
+
+ 50%{background-position:100% 50% ;
+
+}
+
+100%{background-position: 0 50%;
+
+}
+  
+
+
+}
+.container{
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container{width: min(100% - 15,840px);
+  margin-inline: auto
+  ;
+}

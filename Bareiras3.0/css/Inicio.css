@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Telugu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tiro Telugu', serif;
+}
+body{
+    animation: Gradient 10s ease infinite ;
+   background: linear-gradient(-45deg, #0113FA,#3845FA,#969df8,#f1f1f3,#FFFFFF)no-repeat;
+   background-size: 300% 300%;
+   font-family:sans-serif ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   height: 100vh;
+}
+@keyframes Gradient {
+  0%{background-position: 0 50%;
+
+}
+
+ 50%{background-position:100% 50% ;
+
+}
+
+100%{background-position: 0 50%;
+
+}
+  
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+
+ ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    position: relative;
+    max-width: 150px;
+}
+.container .text h2{
+    color: rgb(2, 0, 0);
+    font-size: 5em;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 700;
+}
+
+header .navegar ul{
+    position: relative;
+    display: flex;
+  
+}
+
+
+header .navegar li {
+    list-style: none;
+}
+
+header .navegar li a{
+    color: rgb(2, 0, 0);
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500%;
+    font-size: 19px;
+    margin-left: 100px;
+}
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .text{
+    position: relative 600px;
+    max-width: 600px;
+    margin-right: 20px;
+}
+.container .text p{
+    color: rgb(60, 33, 121);
+}
+.container .text a{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 25px;
+    background: rgb(34, 34, 236);
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+}
+.container .text a:hover{
+    transform: translateY(-10px);
+
+}
+.boximg{
+    position: absolute;
+    right: -259px;
+    bottom: -400px;
+    
+    opacity: 0.09;
+}
+.boximg img{
+    width: 1150px;
+    right: 300px;
+}
+.container{
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .container{width: min(100% - 15,840px);
+    margin-inline: auto
+    ;
+  }
