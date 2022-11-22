@@ -130,7 +130,7 @@ header .navegar li a{
     margin: 0 auto;
     padding: 0 15px;
   }
-  .container{width: min(100% - 15,840px);
+  .container{width: min(100% - 30,840px);
     margin-inline: auto
     ;
   }
